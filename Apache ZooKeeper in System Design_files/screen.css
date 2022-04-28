@@ -429,6 +429,27 @@ body {
     background-size: cover;
     border-radius: 100%;
 }
+
+.logo a{
+    text-decoration: none;
+    color: #fff;
+}
+.logo h2{
+    margin: 0;
+    white-space: nowrap;
+}
+
+.nav li h4{
+    margin: 0;
+    white-space: nowrap;
+}
+
+.nav li .vl{
+    border-left: 2px solid #fff;
+    height: 2rem;
+    margin-left: 1rem;
+}
+
 .hidden {
     visibility: hidden;
     position: absolute;
@@ -452,7 +473,7 @@ body {
 }
 .inner {
     margin: 0 auto;
-    max-width: 1040px;
+    max-width: 90%;
     width: 90%;
 }
 @media (min-width: 900px) {
@@ -598,6 +619,7 @@ body {
     list-style: none;
     align-items: center;
 }
+
 .nav li {
     padding: 0;
     text-transform: uppercase;
@@ -613,6 +635,9 @@ body {
     padding: 10px 12px;
     color: #fff;
     opacity: 0.8;
+}
+.nav .logo a{
+    opacity: 1;
 }
 .nav li select{
     padding: 4px 10px;
